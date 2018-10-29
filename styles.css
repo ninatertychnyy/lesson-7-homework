@@ -1,0 +1,46 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row div {
+    border: 15px solid white;
+}
+.row.blue div {
+    background-color: blue;
+    height: 11rem;
+}
+.row.orange div {
+    background-color: orange;
+    height: 20rem;
+}
+.row.green div {
+    background-color: green;
+    height: 17rem;
+}
+.row.red div {
+    background-color: red;
+    height: 13rem;
+}
+@media only screen and (max-width: 768px) {
+  .row div {
+   border: 5px solid white;
+   text-align: center;
+  }
+.row.blue div {
+    height: 4em; 
+  } 
+  .row.orange div {
+    height: 8em; 
+  } 
+  .row.green div {
+    height: 4em; 
+  }
+  .row.red div {
+    height: 5em;
+  }
+}
