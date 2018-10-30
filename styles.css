@@ -4,8 +4,7 @@ body {
 }
 h1 {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 1.25rem 0;
 }
 .row div {
     border: 15px solid white;
@@ -32,15 +31,15 @@ h1 {
    text-align: center;
   }
 .row.blue div {
-    height: 4em; 
+    height: 4rem; 
   } 
   .row.orange div {
-    height: 8em; 
+    height: 8rem; 
   } 
   .row.green div {
-    height: 4em; 
+    height: 4rem; 
   }
   .row.red div {
-    height: 5em;
+    height: 5rem;
   }
 }
